@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+ }
+ 
+ body {
+  overflow: hidden;
+ }
+ .container img {
+  width: 100%; /* Sets the width to 100% of the container */
+  height: auto; /* Adjusts the height automatically to maintain the aspect ratio */
+ }
+ .love {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  }
+ .hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(iitkgp.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+ 
+ h1 {
+  font-size: 80px;
+  margin: 10px 0 30px;
+  line-height: 80px;
+  color: white;
+ }
+ 
+ button {
+  color: #ee1d1d;
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid #ece8e8;
+  border-radius: 160px;
+  outline: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-top: 20px;
+ }
+ 
+ button:hover {
+  background-color: #edf0e0;
+ }
+ 
+ ol {
+  padding-left: 40px;
+  color: rgb(72, 74, 189);
+ }
+ 
+ li {
+  margin-bottom: 10px;
+ }
+ 
+ h4 {
+  font-size: 24px;
+  color: rgb(236, 100, 36);
+  margin-top: 40px;
+ }
+ 
+ a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-top: 20px;
+  border: 3px solid #1d0c0c;
+  border-radius: 10px;
+ }
+ 
+ a:hover {
+  color: #000;
+ }
+ .flowers img{
+  width: 200px;
+  animation: bubble 7s linear infinite;
+ }
+ .flowers{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
+  position:absolute;
+  bottom:0;
+ }
+ @keyframes bubble{
+  0%{
+    transform:translateY(0);
+    opacity:0;
+  }
+  25%{
+    
+    opacity:0;
+  }
+  50%{
+    
+    opacity:1;
+  }
+  75%{
+    
+    opacity:1;
+  }
+  100%{
+    transform:translateY(-80vh);
+    opacity:0;
+  }
+ }
+ .flowers img:nth-child(1){
+  animation-delay:1s;
+
+ }
+ .flowers img:nth-child(2){
+  animation-delay:4s;
+
+ }
+ .flowers img:nth-child(3){
+  animation-delay:6s;
+
+ }
+ .flowers img:nth-child(4){
+  animation-delay:8s;
+
+ }
+ .flowers img:nth-child(5){
+  animation-delay:10s;
+
+ }
+ @media screen and (max-width:600px)
+ {h1 {
+  font-size: 40px;
+  margin: 10px 0 30px;
+  line-height: 40px;
+  color: white;
+ }
+ h4 {
+  font-size: 12px;
+  color: rgb(236, 100, 36);
+  margin-top: 20px;
+ }
+ }
