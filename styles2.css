@@ -30,10 +30,10 @@
    
    
    button {
-    color: #cacccf;
+    color: #1463da;
     padding: 10px 25px;
     background: transparent;
-    border: 1px solid #ece8e8;
+    border: 1px solid #c55b5b;
     border-radius: 160px;
     outline: none;
     cursor: pointer;
@@ -42,7 +42,7 @@
    }
    
    button:hover {
-    background-color: #fafafc;
+    background-color: #8585db;
    }
    
    h1 {

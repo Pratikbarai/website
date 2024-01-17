@@ -44,7 +44,7 @@
   font-size: 80px;
   margin: 10px 0 30px;
   line-height: 80px;
-  color: white;
+  color: rgb(39, 36, 36);
  }
  
  button {
@@ -91,7 +91,7 @@
   color: #000;
  }
  .flowers img{
-  width: 200px;
+  width: 50px;
   animation: bubble 7s linear infinite;
  }
  .flowers{
